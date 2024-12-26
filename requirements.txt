@@ -1,4 +1,4 @@
-mysqlslient==2.2.6
+mysqlclient==2.2.6
 configparser==7.1.0
 djangorestframework==3.15.1
- django-cors-headers==4.6.0
+django-cors-headers==4.6.0
