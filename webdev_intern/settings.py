@@ -42,7 +42,7 @@ DATABASES = {
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://localhost:5173", '127.0.0.1']
+ALLOWED_HOSTS = ["http://localhost:5173", '127.0.0.1', 'quyhoang.pythonanywhere.com']
 CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
