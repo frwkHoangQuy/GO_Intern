@@ -30,12 +30,8 @@ config.read(os.path.join(BASE_DIR, 'config.ini'))
 # Cấu hình database từ tệp config.ini
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': config['mysql']['database'],
-        'USER': config['mysql']['user'],
-        'PASSWORD': config['mysql']['password'],
-        'HOST': config['mysql']['host'],
-        'PORT': config['mysql']['port'],
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 

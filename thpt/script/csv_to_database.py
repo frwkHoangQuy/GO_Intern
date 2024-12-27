@@ -4,7 +4,7 @@ from thpt.models import DiemThiTHPT
 
 
 def insert_csv_to_db(file_path):
-    chunksize = 10 ** 6  # Đọc từng phần của file CSV
+    chunksize = 10 ** 6
     for chunk in pd.read_csv(file_path, chunksize=chunksize):
         objs = []
         for _, row in chunk.iterrows():
