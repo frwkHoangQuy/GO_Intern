@@ -2,7 +2,7 @@
 
 ## Hướng dẫn cài đặt và khởi chạy
 
-Tham khảo ứng dụng fullstack được cài đặt trong docker qua repo: https://github.com/frwkHoangQuy/GO_Docker/tree/main
+Tham khảo ứng dụng fullstack được cài đặt trong docker qua repo: https://github.com/frwkHoangQuy/GO_Docker
 
 ### 1. Clone code từ GitHub
 Sử dụng lệnh sau để clone code về máy:
